@@ -1,0 +1,31 @@
+{
+  "name": "Run_NodeJS_App_with_GulpJS",
+  "version": "0.0.1",
+  "description": "This repository contains gulpfile.js for running NodeJS App",
+  "author": "Amit Thakar vigildbest@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmitThakkar/Run-NodeJS-App-with-GulpJS"
+  },
+  "keywords": [
+    "node.js",
+    "nodeJS",
+    "gulp",
+    "example"
+  ],
+  "dependencies": {
+    "express": "^4.10.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.2",
+    "gulp-install": "^0.2.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-livereload": "^3.0.2",
+    "gulp-nodemon": "^1.0.5",
+    "gulp-notify": "^2.1.0",
+    "gulp-open": "^0.3.1",
+    "gulp-uglify": "^1.0.1",
+    "run-sequence": "^1.0.2"
+  }
+}
