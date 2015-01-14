@@ -10,7 +10,8 @@ var gulp = require('gulp'),
     open = require("gulp-open"),
     install = require("gulp-install"),
     notify = require("gulp-notify"),
-    runSequence = require('run-sequence');
+    runSequence = require('run-sequence'),
+    rimraf = require('rimraf');
 
 function errorLog(error) {
     console.error(error);
@@ -89,6 +90,10 @@ gulp.task('install', function () {
             message: 'npm install is running.',
             sound: sound
         }));
+});
+
+gulp.task('clear', function (callback) {
+    rimraf('./build', callback);
 });
 
 gulp.task('build', function (callback) {
